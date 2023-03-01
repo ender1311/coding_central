@@ -8,7 +8,6 @@
     z-index: 100;
     width: 100%;
     margin: 0;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,12 +22,11 @@ main {
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 80px 15px 15px 15px;
-
     
 }
 
 main a {
-    font-size: 24px;
+    font-size: 18px;
   }
 
 label, input {
@@ -37,14 +35,22 @@ label, input {
 }
 
 
-
-.brand-title {
+.brand-title a {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    margin: .5rem;
+    margin-left:1.5rem;
+    display: block;
+    text-decoration: none;
+    color: white;
+
+}
+
+.brand-title a:hover {
+    color: #623403;
 }
 
 .navbar-links {
-    height: 90%;
+    height: 100%;
 }
 
 .navbar-links ul {
@@ -66,24 +72,6 @@ label, input {
 
 .navbar-links li:hover {
     background-color: #555;
-}
-
-.toggle-button {
-    position: absolute;
-    top: .75rem;
-    right: 1rem;
-    display: none;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-}
-
-.toggle-button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    border-radius: 10px;
 }
 
 @media (max-width: 800px) {
@@ -141,16 +129,18 @@ label, input {
 
 .main-footer-container ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-left:78vw;
 }
 
-
+.main-footer-container {
+    width:110%;
+    margin:-10px;
+}
 .footer-nav li {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0 .5em;
+    margin: 20px;
+    
 }
 
 .footer-nav img {
