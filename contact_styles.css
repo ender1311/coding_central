@@ -1,0 +1,12 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 2vw;
+    
+  }
+
+
+section {
+    height:35vw;
+}

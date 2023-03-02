@@ -1,4 +1,6 @@
-
+* {
+    font-family: 'Arial';
+}
 .link:hover {
     caret-color: white;
   }
@@ -7,18 +9,19 @@
     position: fixed;
     z-index: 100;
     width: 100%;
-    margin: 0;
+    margin: -10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #063970;
+    background-color: white;
     color: white;
+    border-bottom: 5px double gray;
 }
   
 main {
-    background-image: url("./imgs/background/leone-venter-16x9.jpg");
-    background-position: center;
-    background-size: cover;
+    background-image: url("./imgs/background/portrait4.jpg");
+    background-position: right;
+    background-size: contain;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding: 80px 15px 15px 15px;
@@ -36,17 +39,17 @@ label, input {
 
 
 .brand-title a {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial';
     font-size: 1.5rem;
     margin-left:1.5rem;
     display: block;
     text-decoration: none;
-    color: white;
+    color: gray;
 
 }
 
 .brand-title a:hover {
-    color: yellow;
+    color: #063970;
 }
 
 .navbar-links {
@@ -64,14 +67,20 @@ label, input {
 }
 
 .navbar-links li a {
-    display: block;
+    display:flex;
+    justify-content: space-around;
+    margin-right:3rem;
     text-decoration: none;
-    color: white;
+    color: gray;
     padding: 1rem;
+    
 }
 
-.navbar-links li:hover {
-    background-color: #555;
+.navbar-links li a:hover {
+    color: #063970;
+    transform: scale(1.2); /* increases the size of the image by 20% */
+    /*box-shadow: 1px 1px 2px #063970; *//* increases the shadow size and opacity */
+  
 }
 
 @media (max-width: 800px) {
