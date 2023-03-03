@@ -1,23 +1,49 @@
 * {
     font-family: 'Arial';
 }
-.link:hover {
-    caret-color: white;
-  }
 
 .navbar {
     position: fixed;
     z-index: 100;
     width: 100%;
-    margin: -10px;
+    height:7vh;
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
+
     align-items: center;
     background-color: white;
     color: white;
     border-bottom: 5px double gray;
+    margin-top:-10px;
+
 }
   
+
+.navbar-links ul {
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+
+    margin-right:3rem;
+    text-decoration: none;
+    color: gray;
+
+    
+}
+
+.navbar-links li a:hover {
+    color: #063970;
+    transform: scale(1.2); /* increases the size of the image by 20% */
+    /*box-shadow: 1px 1px 2px #063970; *//* increases the shadow size and opacity */
+  
+}
+
 main {
     background-image: url("./imgs/background/portrait4.jpg");
     background-position: right;
@@ -32,10 +58,7 @@ main a {
     font-size: 18px;
   }
 
-label, input {
-    margin: 10px;
-    padding: 0;
-}
+
 
 
 .brand-title a {
@@ -45,43 +68,15 @@ label, input {
     display: block;
     text-decoration: none;
     color: gray;
-
+    
 }
 
 .brand-title a:hover {
     color: #063970;
 }
 
-.navbar-links {
-    height: 100%;
-}
 
-.navbar-links ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
 
-.navbar-links li {
-    list-style: none;
-}
-
-.navbar-links li a {
-    display:flex;
-    justify-content: space-around;
-    margin-right:3rem;
-    text-decoration: none;
-    color: gray;
-    padding: 1rem;
-    
-}
-
-.navbar-links li a:hover {
-    color: #063970;
-    transform: scale(1.2); /* increases the size of the image by 20% */
-    /*box-shadow: 1px 1px 2px #063970; *//* increases the shadow size and opacity */
-  
-}
 
 @media (max-width: 800px) {
     .navbar {
@@ -122,37 +117,25 @@ label, input {
 
  
   .main-footer-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #063970;
-    padding: .25em 0;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     height: 50px;
-}
-
-.main-footer-container h3 {
-    margin: 0;
-    padding: 0 .5em;
-    color: white;
 }
 
 .main-footer-container ul {
     list-style: none;
     display: flex;
-    justify-content: center;
-    margin-left:78vw;
-}
-
-.main-footer-container {
-    width:110%;
-    margin:-10px;
-}
-.footer-nav li {
-    margin: 20px;
+    flex-direction: row;
+    justify-content: flex-end;
     
 }
+
 
 .footer-nav img {
     width: 30px;
     height: 30px;
+    margin-right: 30px;
 }
