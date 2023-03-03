@@ -10,7 +10,7 @@ main p {
 }
 
 .image-grid img {
-  height: 200px;
+  height: 20vh;
   border: 10px double #063970;
   border-radius: 15px;
   padding:20px;
