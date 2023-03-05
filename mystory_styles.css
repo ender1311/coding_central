@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Garamond";
+    src: url("./fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf");
+    
+  }
+  @font-face {
+    font-family: "Garamond";
+    src: url("./fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf");
+    
+  }
+  
+  @font-face {
+    font-family: "Bodoni";
+    src: url("./fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf");
+  }
+  
+  @font-face {
+    font-family: "Bodoni";
+    src: url("./fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf");
+  }
+  
+  @font-face {
+    font-family: "Century";
+    src: url("./fonts\century-expanded-regular_a00wT\Century Expanded Regular.otf");
+  }
+  
+  @font-face {
+    font-family: "Futura";
+    src: url("./fonts/Futura/futura medium bt.ttf");
+  }
+
+main {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.story_container {
+    display: flex;
+    flex-direction: column;
+
+    width:50vw;
+}
+span {
+    font-family: "Century";
+    font-style: italic;
+}
+.highlight_grew {
+color: green;
+
+}
+
+.highlight_inspired {
+    color: teal;
+}
+
+
+.highlight_ache {
+    color: blue
+}
+
+
+.highlight_value {
+    color:red;
+}
+
+
+

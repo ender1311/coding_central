@@ -1,4 +1,26 @@
-* {
+@font-face {
+    font-family: "Garamond";
+    src: url("./fonts/EB_Garamond/EBGaramond-VariableFont_wght.ttf");
+    
+  }
+  @font-face {
+    font-family: "Garamond";
+    src: url("./fonts/EB_Garamond/EBGaramond-Italic-VariableFont_wght.ttf");
+    
+  }
+  
+  @font-face {
+    font-family: "Bodoni";
+    src: url("./fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz\,wght.ttf");
+  }
+  
+  @font-face {
+    font-family: "Bodoni";
+    src: url("./fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz\,wght.ttf");
+  }
+
+Body {
+    
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -11,7 +33,7 @@
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-
+    background-color: white;
     border-bottom: 5px double gray;
     margin-top:-10px;
 
@@ -49,14 +71,10 @@
 }
 
 main {
-    background-image: url("./imgs/background/portrait4.jpg");
-    background-position: right;
-    background-size: contain;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 
-    padding: 80px 15px 15px 15px;
-    
+
+    padding: 80px 15px 50px 15px;
+    margin-bottom:50px;
 }
 
 main a {
@@ -124,6 +142,9 @@ main a {
 
  
   .main-footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: transparent;
     position: fixed;
     bottom: 0;
@@ -131,6 +152,14 @@ main a {
     width: 100%;
     height: 50px;
 }
+
+/* .main-footer-container p {
+    font-size: small;
+    display: flex;
+    flex-direction: rows;
+    align-items: baseline;
+    margin-top:20px;
+} */
 
 .main-footer-container ul {
     list-style: none;
