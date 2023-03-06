@@ -6,3 +6,10 @@ main {
     background-repeat: no-repeat;
     
 }
+
+/* Disable background image on small mobile screens */
+@media screen and (max-width: 480px) {
+    body {
+      background-image: none;
+    }
+  }

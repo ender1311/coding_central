@@ -16,8 +16,8 @@ main p {
 
 }
 .image-grid img {
-  height: 30vh;
-  width:20vw;
+  height: 24vh;
+  width:16vw;
   object-fit: cover;
   /* border: 3px solid #edb722; */
   
@@ -32,7 +32,7 @@ main p {
 }
 .project-box {
   margin:5vw;
-  padding:30px;
+  padding:40px;
   border: 3px solid black;
   border-radius: 50px;
   /* transform: translate(10vw, 15vh);

@@ -4,12 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/16723983b6.js" crossorigin="anonymous"></script>
   <script src="./jquery-3.6.0.min.js"></script>
   
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./contact_styles.css">
   <link rel="icon" href="./files/inf_code_low.png" type="image/png">
   <script src="./script.js" defer></script>
+  
   <title>Contact Me</title>
 </head>
 
@@ -31,48 +33,28 @@
     <!--end of Footer-->
   </header>
 <main>
-  <section>
 
- <div class="title">
-	<br>
-  <br>
-  <br>
-  
-</div>
-<div class="form">
-	<form action="submit-form.php" method="POST">
-		<p>
-        
-    		Email: 
-        <a href="mailto:danluk1311@gmail.com">
-          danluk1311@gmail.com
-        </a>
-      <br>
-      <br>
-        LinkedIn: 
-        <a href="https://www.linkedin.com/in/danluk1311/">
-          https://www.linkedin.com/in/danluk1311/
-        </a>
-      <br/><br/>
-      </p>
-
+    <div class="container">
 		
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br/>
-    
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br/>
-            
-            <label for="linkedin">LinkedIn:</label>
-            <input type="linkedin" id="linkedin" name="linkedin"><br/><br/>
-
-            <label for="message">Message:</label><br/><br/>
-            <textarea id="message" name="message" required></textarea><br/>
-    
-            <input type="submit" value="Submit">
-        </form>
-      </div>
-      </section>
+		<div class="contact">
+			<div class="contact-item">
+				<span class="icon"><i class="fa fa-envelope"></i></span>
+				<span class="text"><a href="mailto:danluk1311@gmail.com">danluk1311@gmail</a></span>
+			</div>
+			<div class="contact-item">
+				<span class="icon"><i class="fa fa-phone"></i></span>
+				<span class="text"><a href="tel:(614) 546-8412">(614) 546-8412</a></span>
+			</div>
+			<div class="contact-item">
+				<span class="icon"><i class="fa fa-linkedin"></i></span>
+				<span class="text"><a href="https://www.linkedin.com/in/danluk1311/" target="_blank">danluk1311</a></span>
+			</div>
+			<div class="contact-item">
+				<span class="icon"><i class="fa fa-github"></i></span>
+				<span class="text"><a href="https://github.com/ender1311" target="_blank">ender1311</a></span>
+			</div>
+		</div>
+	</div>
 	</main>
 
   <footer>
