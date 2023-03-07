@@ -27,9 +27,7 @@ main p {
 }
 
 
-#minions_store {
-  /* height:100vh; */
-}
+
 .project-box {
   margin:5vw;
   padding:40px;
@@ -42,18 +40,13 @@ main p {
 
 }
 
-.project-box a {
-  /* width:20vw; */
-}
-
-.image-grid a {
-  /* display: block; */
+#minion_face {
+  object-fit: contain;
 }
 
 .image-grid p {
-  /* padding-left:20px;   */
   text-align: center;
-  /* width: 20vw; */
+
 }
 
 .image-grid img:hover {
@@ -91,7 +84,7 @@ main p {
   border-radius: 20px; /* Change to desired border radius */
   border: none;
   cursor: pointer;
-  font-size: 20px; /* Change to desired font size */
+  font-size: 24px; /* Change to desired font size */
   font-weight: bold; /* Change to desired font weight */
   text-align: center;
 }
