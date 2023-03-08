@@ -111,10 +111,10 @@ main a {
       }
 
     .navbar {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
         align-items: flex-start;
-        font-size: small;
+        font-size: small; */
     }
 
     .navbar-links {
@@ -128,9 +128,9 @@ main a {
 
     .navbar-links ul {
         /* width: 100%; */
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-start; */
     }
 
     .navbar-links ul li {

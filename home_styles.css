@@ -29,12 +29,16 @@
   src: url("./fonts/Futura/futura medium bt.ttf");
 }
 
+main {
+  height:80vh;
+}
+
 .introduction {
     display: flex;
     flex-direction: column;
     justify-content: center;
 
-    height:80vh;
+    height: 100%;
     margin-left: 10vw;
 }
 
@@ -75,3 +79,57 @@ span.highlight {
     font-weight: bold;
   }
   
+
+  @media screen {
+    
+    main {
+      /* height:80vh; */
+    }
+    
+    .introduction {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+        height: 100%;
+        /* margin-left: 10vw; */
+    }
+    
+    .introduction p {
+      margin:auto;
+    }
+    
+    #hello_intro {
+      font-family: "Futura", "Arial";
+    }
+    
+    #name {
+        font-size: 36px;
+        font-family:"Futura", "Century", "Arial";
+        font-weight: bold;
+      
+    
+    }
+    
+    #name span.highlight {
+      color: #063970
+      
+    }
+    #hello_intro {
+      font-size: 12px;
+    }
+    
+    #role {
+      font-size:18px;
+    }
+    
+    #role span.generic_role {
+    font-style: italic;
+    }
+    
+    span.highlight {
+        color:#edb722;
+        font-weight: bold;
+      }
+      
+  }
