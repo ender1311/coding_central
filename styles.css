@@ -103,10 +103,13 @@ main a {
 
 
 @media screen and (max-width: 500px) {
+    a {
+        font-size: 8px;
+    }
     header {
       width: 350px;
     }
-  
+    
     main {
       width: 350px;
       margin: 0;
