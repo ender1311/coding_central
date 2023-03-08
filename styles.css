@@ -102,13 +102,13 @@ main a {
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     header {
-      width: 100%;
+      width: 350px;
     }
   
     main {
-      width: 100%;
+      width: 350px;
       margin: 0;
       padding: 0;
     }
@@ -116,6 +116,7 @@ main a {
     .introduction {
       margin-left: 10px;
       margin-right: 10px;
+
     }
   }
   
