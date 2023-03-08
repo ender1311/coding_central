@@ -102,7 +102,7 @@ main a {
 }
 
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     a {
         font-size: 8px;
     }
@@ -121,11 +121,13 @@ main a {
       margin-right: 10px;
 
     }
-  }
+  } */
   
-/* 
-@media screen and (max-width: 800px) {
 
+@media screen and (max-width: 500px) {
+  a {
+    font-size: 8px;
+}
     .brand-title {
         display: none;
       }
@@ -138,7 +140,7 @@ main a {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        font-size: small;
+        font-size: 8px;
      
         
     }
@@ -158,7 +160,7 @@ main a {
     .navbar-links.active {
         display: flex;
     }
-} */
+} 
 
 
  
