@@ -46,13 +46,15 @@ form {
   margin-top: 30px;
   text-align: center;
 }
-
+.contact a {
+	text-decoration: none;
+}
 .text a {
 	color: #0077b5;
 	text-decoration: none;
-  font-size: 30px;
+  	font-size: 30px;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }

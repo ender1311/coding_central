@@ -97,8 +97,8 @@ main a {
 }
 
 .brand-title a:hover {
-    color:#edb722
-    
+    color:#edb722;
+    text-decoration: none;
 }
 
 

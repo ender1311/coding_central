@@ -31,7 +31,7 @@
 
 main {
     font-size: 24px;
-    margin-left:5vw;
+    margin-left:100px;
 
 }
 
@@ -43,7 +43,15 @@ h1 {
     display: flex;
     flex-direction: column;
 
-    width:50vw;
+    width:50%;
+}
+
+@media screen {
+
+    body {
+      background-image: none;
+    }
+
 }
 span {
     font-family: "Century";
