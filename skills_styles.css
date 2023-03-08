@@ -147,31 +147,30 @@
   main {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    padding:0px;
+  }
+  
+  .container > div {
+    flex: none; /* or - flex: 0 50% - or - flex-basis: 50% - */
+    /*demo*/
+    
   
   }
   
-  
-  
-  .box-shadow img{
-      box-shadow: 5px 5px 10px #555;
-      width:80px;
-      border: 5px solid black;
-      padding: 10px;
-      margin: 10px 30px 10px 80px;
-      
-    }
+ 
   
   .first-row {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+   padding: 0px;
     
   }
  
   
   section {
       width:350px;
+      padding:0px;
   
   }
   .skills_list {
@@ -196,6 +195,7 @@
   
   .tech_image img{
     border-radius: 50%;
+    width:100px;
   }
   h2 {
     color: #555;
@@ -215,7 +215,8 @@
   
   .button-link {
     width:300px;
-    display: inline;
+
+    display: flex;
     background-color: #edb722; /* Change to desired color */
     color: #fff; /* Change to desired color */
     padding: 10px 20px; /* Change to desired padding */
