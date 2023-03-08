@@ -102,8 +102,24 @@ main a {
 }
 
 
-
-
+@media screen and (max-width: 400px) {
+    header {
+      width: 100%;
+    }
+  
+    main {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .introduction {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  
+/* 
 @media screen and (max-width: 800px) {
 
     .brand-title {
@@ -111,10 +127,7 @@ main a {
       }
 
     .navbar {
-        /* display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        font-size: small; */
+
     }
 
     .navbar-links {
@@ -122,15 +135,12 @@ main a {
         flex-direction: column;
         align-items: flex-start;
         font-size: small;
-        /* width: 100%; */
+     
         
     }
 
     .navbar-links ul {
-        /* width: 100%; */
-        /* display: flex;
-        flex-direction: column;
-        align-items: flex-start; */
+       
     }
 
     .navbar-links ul li {
@@ -144,7 +154,7 @@ main a {
     .navbar-links.active {
         display: flex;
     }
-}
+} */
 
 
  

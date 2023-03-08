@@ -80,11 +80,28 @@ span.highlight {
     font-weight: bold;
   }
   
+  @media screen and (max-width: 500px) {
+    .navbar {
+      width: 100%;
+    }
+    .navbar-links {
+      display: none;
+    }
+    .navbar-links.active {
+      display: block;
+      width: 100%;
+    }
+    main {
+      width: 100%;
+      padding: 0;
+    }
+  }
 
+  /*
 @media screen and (max-width: 800px){
     
     main {
-      /* height:80vh; */
+      
     }
     
     .introduction {
@@ -93,7 +110,7 @@ span.highlight {
         justify-content: center;
     
         height: 100%;
-        /* margin-left: 10vw; */
+      
     }
     
     .introduction p {
@@ -134,3 +151,4 @@ span.highlight {
       }
       
   }
+  */
