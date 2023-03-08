@@ -80,41 +80,17 @@ span.highlight {
     font-weight: bold;
   }
   
-  /* @media screen and (max-width: 500px) {
-    .navbar {
-      width: 100%;
-    }
-    .navbar-links {
-      display: none;
-      font-size: 10px;
-    }
-    .navbar-links.active {
-      display: block;
-      width: 100%;
-    }
-    main {
-      width: 100%;
-      padding: 0;
-    }
-    .introduction {
-       
-      transform: translateY(-100px);
-  }
-  } */
-
-/* 
+ 
 @media screen and (max-width: 800px){
     
     main {
-      
+      height:800px;
+      margin:0px;
     }
     
     .introduction {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    
-        height: 100%;
+      height:400px;
+    margin:0px;
       
     }
     

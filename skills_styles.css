@@ -85,16 +85,7 @@
     color: #edb722;
     
   }
-  /* .tech_skills {
-    background-color: rgb(164, 198, 218);
-    width: 30vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px 100px; 
-    border-radius: 50px;
-    
-  } */
+
   
   .tech_image img{
     border-radius: 50%;
@@ -148,3 +139,103 @@
     background-color: rgb(164, 198, 218);
     
   } */
+
+
+  @media screen and (max-width: 500px) {
+
+    
+  main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  
+  }
+  
+  
+  
+  .box-shadow img{
+      box-shadow: 5px 5px 10px #555;
+      width:80px;
+      border: 5px solid black;
+      padding: 10px;
+      margin: 10px 30px 10px 80px;
+      
+    }
+  
+  .first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+  }
+ 
+  
+  section {
+      width:100%;
+  
+  }
+  .skills_list {
+    width:auto;
+    
+  }
+  .skills_list ul {
+    list-style: none;
+  }
+  
+  .skills_list li {
+
+  }
+  
+  #tech_skill_title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #edb722;
+    
+  }
+
+  
+  .tech_image img{
+    border-radius: 50%;
+  }
+  h2 {
+    color: #555;
+  
+  }
+  
+  .link_story {
+    margin-top:10vh;
+  
+  }
+  .link_story ul {
+    list-style: none;
+    
+    
+  }
+  
+  
+  .button-link {
+    width:300px;
+    display: inline-block;
+    background-color: #edb722; /* Change to desired color */
+    color: #fff; /* Change to desired color */
+    padding: 10px 20px; /* Change to desired padding */
+    text-decoration: none;
+    border-radius: 50px; /* Change to desired border radius */
+    border: none;
+    cursor: pointer;
+    font-size: 16px; /* Change to desired font size */
+    font-weight: bold; /* Change to desired font weight */
+    text-align: center;
+  
+    text-decoration: none;
+  
+    font-family: "Garamond";
+    font-size: 32px;
+    color:white;
+    font-weight: bold;
+  }
+  
+  .button-link:hover {
+    background-color: #0069d9; /* Change to desired hover color */
+  }
+  }
