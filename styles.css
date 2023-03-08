@@ -137,9 +137,7 @@ main a {
     }
 
     .navbar-links {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        
         font-size: 8px;
      
         
@@ -150,7 +148,7 @@ main a {
     }
 
     .navbar-links ul li {
-        text-align: center;
+        text-align: left;
     }
 
     .navbar-links ul li a {
