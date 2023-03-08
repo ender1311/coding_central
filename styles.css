@@ -126,7 +126,7 @@ main a {
 
 @media screen and (max-width: 500px) {
   a {
-    font-size: 8px;
+    font-size: 12px;
 }
     .brand-title {
         display: none;
