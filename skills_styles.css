@@ -171,7 +171,7 @@
  
   
   section {
-      width:100%;
+      width:350px;
   
   }
   .skills_list {
@@ -215,22 +215,22 @@
   
   .button-link {
     width:300px;
-    display: inline-block;
+    display: inline;
     background-color: #edb722; /* Change to desired color */
     color: #fff; /* Change to desired color */
     padding: 10px 20px; /* Change to desired padding */
-    text-decoration: none;
+
     border-radius: 50px; /* Change to desired border radius */
     border: none;
     cursor: pointer;
-    font-size: 16px; /* Change to desired font size */
-    font-weight: bold; /* Change to desired font weight */
+ 
+
     text-align: center;
   
     text-decoration: none;
   
     font-family: "Garamond";
-    font-size: 32px;
+    font-size: 12px;
     color:white;
     font-weight: bold;
   }
