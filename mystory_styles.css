@@ -46,7 +46,7 @@ h1 {
     width:50%;
 }
 
-@media screen {
+@media screen and (max-width: 800px){
 
     body {
       background-image: none;
