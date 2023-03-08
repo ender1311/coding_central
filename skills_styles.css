@@ -169,7 +169,7 @@
  
   
   section {
-      width:350px;
+      width:400px;
       padding:0px;
   
   }
@@ -194,8 +194,9 @@
 
   
   .tech_image img{
+    display:none;
     border-radius: 50%;
-    width:100px;
+    width:150px;
   }
   h2 {
     color: #555;
@@ -214,7 +215,7 @@
   
   
   .button-link {
-    width:300px;
+    width:auto;
 
     display: flex;
     background-color: #edb722; /* Change to desired color */
@@ -231,7 +232,7 @@
     text-decoration: none;
   
     font-family: "Garamond";
-    font-size: 12px;
+    font-size: 16px;
     color:white;
     font-weight: bold;
   }
