@@ -8,7 +8,6 @@ main p {
   flex-wrap: wrap;
   align-items: flex-end;
   align-content: space-around;
-  margin: 0px, 100px, 0px, 1000px;
 }
 
 .image-grid > div {
@@ -93,3 +92,11 @@ main p {
   background-color: #edb722; /* Change to desired hover color */
 }
 
+@media screen {
+
+  body {
+
+  margin:10px;
+  
+  }
+}
