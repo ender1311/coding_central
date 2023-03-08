@@ -39,7 +39,8 @@ main {
     justify-content: center;
 
     height: 100%;
-    margin-left: 10vw;
+    margin-left: 200px;
+    transform: translateY(-50px);
 }
 
 .introduction p {
@@ -80,7 +81,7 @@ span.highlight {
   }
   
 
-  @media screen {
+@media screen and (max-width: 800px){
     
     main {
       /* height:80vh; */
