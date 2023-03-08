@@ -89,6 +89,7 @@ span.highlight {
     }
     
     .introduction {
+      display: inline-flex;
       height:400px;
     margin:0px;
       
@@ -132,4 +133,4 @@ span.highlight {
       }
       
   }
-   */
+   
